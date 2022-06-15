@@ -10,22 +10,6 @@ const Features = () => {
 					<div className="col-lg-3 col-sm-6">
 						<div className="single-box">
 							<div className="icon">
-                                <Icon.Server />
-							</div>
-
-							<h3>
-								<Link to="/feature-details">
-									Web Hosting
-								</Link>
-							</h3>
-
-							<p>We offer our website product clients an affordable, hassle free webhosting service to keep their website online 24/7.</p>
-						</div>
-					</div>
-
-					<div className="col-lg-3 col-sm-6">
-						<div className="single-box bg-f78acb">
-							<div className="icon">
                                 <Icon.Code />
 							</div>
 
@@ -35,14 +19,30 @@ const Features = () => {
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<p>We offer our website clients an affordable, hassle free webhosting service to keep their website online 24/7.</p>
+						</div>
+					</div>
+
+					<div className="col-lg-3 col-sm-6">
+						<div className="single-box bg-f78acb">
+							<div className="icon">
+                                <Icon.ShoppingCart />
+							</div>
+
+							<h3>
+								<Link to="/feature-details">
+									E-Commerce Solutions
+								</Link>
+							</h3>
+
+							<p>A fully-integrated E-Commerce platform with a user-friendly mobile app designed with clients in mind.</p>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-sm-6">
 						<div className="single-box bg-c679e3">
 							<div className="icon">
-                                <Icon.Users />
+                                <Icon.CheckCircle />
 							</div>
 
 							<h3>
@@ -51,23 +51,23 @@ const Features = () => {
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<p>Already have a website but want to know what steps you can take to increase organic traffic? Our SEO Audits are perfect for you!</p>
 						</div>
 					</div>
 
 					<div className="col-lg-3 col-sm-6">
 						<div className="single-box bg-eb6b3d">
 							<div className="icon">
-                                <Icon.GitBranch />
+                                <Icon.Monitor />
 							</div>
 
 							<h3>
 								<Link to="/feature-details">
-									Access Controlled
+									Landing Pages
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<p>Our informational landing pages make it easier for your customers to see information about your business and to get in touch.</p>
 						</div>
 					</div>
 				</div>

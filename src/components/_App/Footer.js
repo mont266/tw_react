@@ -92,7 +92,7 @@ const Footer = () => {
 
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Address</h3>
+                            {/* <h3>Address</h3>
                             
                             <ul className="footer-contact-info">
                                 <li> 
@@ -107,20 +107,20 @@ const Footer = () => {
                                     <Icon.PhoneCall />
                                     Phone: <Link to="tel:321984754">+ (321) 984 754</Link>
                                 </li>
-                            </ul>
+                            </ul> */}
 
                             <ul className="social-links">
                                 <li>
-                                    <a href="https://www.facebook.com/" className="facebook" target="_blank" rel="noreferrer"><Icon.Facebook /></a>
+                                    <a href="https://www.facebook.com/TalismanWebs/" className="facebook" target="_blank" rel="noreferrer"><Icon.Facebook /></a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/" className="twitter" target="_blank" rel="noreferrer"><Icon.Twitter /></a>
+                                    <a href="https://twitter.com/talisman_webs" className="twitter" target="_blank" rel="noreferrer"><Icon.Twitter /></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/" className="instagram" target="_blank" rel="noreferrer"><Icon.Instagram /></a>
+                                    <a href="https://www.instagram.com/talismanwebs/" className="instagram" target="_blank" rel="noreferrer"><Icon.Instagram /></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/" className="linkedin" target="_blank" rel="noreferrer"><Icon.Linkedin /></a>
+                                    <a href="https://www.linkedin.com/company/talisman-webs" className="linkedin" target="_blank" rel="noreferrer"><Icon.Linkedin /></a>
                                 </li>
                             </ul>
                         </div>
@@ -128,7 +128,7 @@ const Footer = () => {
 
                     <div className="col-lg-12 col-md-12">
                         <div className="copyright-area">
-                            <p>Copyright &copy; {currentYear} Spet. All rights reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+                            <p>Copyright &copy; {currentYear} Talisman Webs.</p>
                         </div>
                     </div>
                 </div>

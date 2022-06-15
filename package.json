@@ -6,6 +6,7 @@
   "author": "EnvyTheme.com",
   "dependencies": {
     "@loadable/component": "^5.15.2",
+    "@plasmicapp/loader-gatsby": "^1.0.131",
     "animate.css": "^4.1.1",
     "gatsby": "^4.9.2",
     "gatsby-plugin-gatsby-cloud": "^4.4.0",

@@ -55,7 +55,7 @@ const RecentWorks = () => {
                 <div className="section-title">
                     <h2>Our Recent Works</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Some of the most recent projects to join the Talisman Webs portfolio.</p>
                 </div>
             </div>
 

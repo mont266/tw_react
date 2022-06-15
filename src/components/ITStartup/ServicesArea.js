@@ -35,57 +35,57 @@ const ServicesArea = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6 col-md-12 services-content">
                             <div className="section-title">
-                                <h2>Cloud Hosting Services</h2>
+                                <h2>Web Development Services</h2>
                                 <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Having a professional website doesn't have to be expensive. We offer many bespoke web-development services at affordable prices.</p>
                             </div>
 
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Database /> Cloud Databases
+                                        <Icon.Database /> Website Development
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Globe /> Website Hosting
+                                        <Icon.Tool /> CMS Platforms
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.File /> File Storage
+                                        <Icon.Globe /> Web Hosting
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.TrendingUp /> Forex Trading
+                                        <Icon.Upload /> Domain Registration
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Folder /> File Backups
+                                        <Icon.ShoppingCart /> E-Commerce
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Monitor /> Remote Desktop
+                                        <Icon.Calendar /> Appointment Booking
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Mail /> Email Servers
+                                        <Icon.Mail /> Live Chat
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Cloud /> Hybrid Cloud
+                                        <Icon.Award /> Performance Analytics
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +256,7 @@ const ServicesArea = () => {
 
                         <div className="col-lg-6 col-md-12 services-content">
                             <div className="section-title">
-                                <h2>SEO Services</h2>
+                                <h2>SEO Audits</h2>
                                 <div className="bar"></div>
                                 <p>Our SEO audits offer extreme detail and will identify the current strengths and weaknesses of your current SEO strategy.</p>
                             </div>
@@ -264,49 +264,49 @@ const ServicesArea = () => {
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Layout /> Responsive Design
+                                        <Icon.Layout /> Backlinks Reports
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Code /> React Web Development
+                                        <Icon.Search /> Spelling & Grammar Reports
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Smartphone /> Android Apps Development
+                                        <Icon.Delete /> Broken Links Reports
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Code /> Laravel Web Development
+                                        <Icon.Smartphone /> Mobile Friendly Reports
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Smartphone /> iOS Apps Development
+                                        <Icon.Code /> Meta Tags Reports
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Percent /> UX/UI Design
+                                        <Icon.File /> Website Architecture Reports
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.ShoppingCart /> E-commerce Development
+                                        <Icon.TrendingUp /> Page Speed Reports
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.CheckCircle /> Print Ready Design
+                                        <Icon.CheckCircle /> 6 More Reports...
                                     </div>
                                 </div>
                             </div>

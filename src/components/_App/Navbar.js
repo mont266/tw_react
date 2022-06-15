@@ -317,7 +317,7 @@ const Navbar = () => {
 
                         <div className="others-option">
 
-                            <Link to="/contact" className="btn btn-light">
+                            <Link to="https://talismanwebs.hipporello.net/desk" target="_blank" className="btn btn-light">
 							    Support
                             </Link>
 

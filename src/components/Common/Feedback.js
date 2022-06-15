@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby";
 import Slider from "react-slick";
 import * as Icon from 'react-feather';
 
@@ -126,7 +127,11 @@ class Feedback extends React.Component {
                     <div className="section-title">
                         <h2>What users Saying</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>We pride ourselves on delivering above and beyond for our clients. Here is some of the things our clients have to say.</p>
+                        <p>_____</p>
+                        <Link to="/contact" className="btn btn-primary">
+					        Leave A Review
+				        </Link>
                     </div>
 
                     <div className="feedback-slides">
@@ -177,6 +182,7 @@ class Feedback extends React.Component {
                 <div className="shape8 rotateme">
                     <img src={Shape2} alt="shape" />
                 </div>
+                
             </section>
         );
     }
@@ -184,52 +190,34 @@ class Feedback extends React.Component {
 
 const DEFAULT_PROPS = [
     {
-        name: 'David Gale', 
-        profession: 'Web Developer',
+        name: 'Danielle Magee', 
+        profession: 'Dedicated, Friendly Service',
         image: ClientImg1, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: 'I cannot recommend Talisman Webs enough. The team have worked so hard to build us our first website, nothing was ever a bother for them. Even when we were changing our minds about certain elements, they were happy to help change up whatever we needed. We were shown how to update the website and any questions we have are always answered quickly and with so much patience. We absolutely love our new website and honestly without the patience and dedication of Talisman Webs I dont think we would ever have gotten it up an running.'
     },
     {
-        name: 'Matt Damon', 
-        profession: 'Software Engineer',
+        name: 'Maxi', 
+        profession: 'Professional and rapid, highly recommend!',
         image: ClientImg2, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: 'Talisman Webs has built us a very professional and efficient website for our company. Integrated it with delivery services which run extremely smoothly. Scott not only has met our deadline requirement, but managed to compete it well in advance, allowing us to work with him to perfect it before the launch. He frequently updates the website with our products, current promotional discounts and notifies us with analytics such as the number of people visiting our website and which products our customers are most interested in. Couldnt recommend Talisman Webs enough, overall a very rapid and professional company which keeps its customers and the websites updated on a daily bases. Any requests Ive had regarding updates on the website were completed within 24 hours, couldnt get such customer service anywhere else. Wish Talisman Webs and Scott the best of luck in the future and looking forward to working alongside them in the very near future!'
     },
     {
-        name: 'Nicky Parsons', 
-        profession: 'Fictional Character',
+        name: 'Twig Services', 
+        profession: 'We want to keep Talisman Webs all to ourselves!',
         image: ClientImg3, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: 'Twig Services has been trading for 6 years and maintaining a website through various third parties has always been troublesome, time-consuming and costly at best! We also had very bad experiences along the way and are bombarded on a daily basis which has left us sceptical about the industry sector on a whole in trying to sort out the wheat from the chaff! When a trusted advisor highly recommended them we thought we would hear what they had the say and loved everything we heard about making our website more user-friendly, engaging and having more of an SEO presence. We took the plunge and are over the moon with the new content and features which have all been accomplished in lightning fast time and with minimal hassle, where Scott in particular seemed to know exactly what we would want and need! We can now concentrate for the first time knowing that our brand is loved and cherished and is continually being worked on proactively!'
     },
     {
-        name: 'Jason Momoa', 
-        profession: 'American Actor',
+        name: 'Khurram Ali', 
+        profession: '',
         image: ClientImg4, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: 'Scott and his team have been great to work with. Any requests were dealt punctually and efficiently. The designing and coherence of our website is testament to these guys skills. With frequent communication for changes and updates, these guys are on the ball! Can’t recommend them enough. They are always happy to help'
     },
     {
-        name: 'Gennady Korotkevich', 
-        profession: 'Sport Programmer',
+        name: 'Anne Montford', 
+        profession: '',
         image: ClientImg5, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Petr Mitrichev', 
-        profession: 'Russian Programmer',
-        image: ClientImg1, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Reid W. Barton', 
-        profession: 'Mathematics',
-        image: ClientImg2, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Lisa Sauermann', 
-        profession: 'Mathematician',
-        image: ClientImg3, 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: 'quick , professional and keeps everything up to date'
     }
 ];
 

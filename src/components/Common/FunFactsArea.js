@@ -16,15 +16,15 @@ const FunFactsArea = () => {
                 <div className="row">
                     <div className="col-lg-3 col-md-3 col-6">
                         <div className="funfact">
-                            <h3>180K</h3>
-                            <p>Downloaded</p>
+                            <h3>15K+</h3>
+                            <p>Users on Client Sites In The Past Year</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-3 col-6">
                         <div className="funfact">
-                            <h3>20K</h3>
-                            <p>Feedback</p>
+                            <h3>6</h3>
+                            <p>Websites Built and Counting...</p>
                         </div>
                     </div>
 

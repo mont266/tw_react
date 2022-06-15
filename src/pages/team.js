@@ -57,8 +57,6 @@ const Team = () => (
                                         </a>
                                     </li>
                                 </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
                             </div>
                         </div>
                     </div>
@@ -71,47 +69,7 @@ const Team = () => (
 
                             <div className="team-content">
                                 <div className="team-info">
-                                    <h3>Alex Maxwel</h3>
-                                    <span>Marketing Manager</span>
-                                </div>
-
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Facebook />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Twitter />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Linkedin />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://gitlab.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Gitlab />
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-team">
-                            <div className="team-image">
-                                <img src={TeamImg3} alt="image" />
-                            </div>
-
-                            <div className="team-content">
-                                <div className="team-info">
-                                    <h3>Janny Cotller</h3>
+                                    <h3>Jamie Neill</h3>
                                     <span>Web Developer</span>
                                 </div>
 
@@ -137,8 +95,44 @@ const Team = () => (
                                         </a>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="col-lg-4 col-md-6">
+                        <div className="single-team">
+                            <div className="team-image">
+                                <img src={TeamImg3} alt="image" />
+                            </div>
 
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                            <div className="team-content">
+                                <div className="team-info">
+                                    <h3>Luke O'Kane</h3>
+                                    <span>Web Developer</span>
+                                </div>
+
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                                            <Icon.Facebook />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                                            <Icon.Twitter />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                                            <Icon.Linkedin />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://gitlab.com/" target="_blank" rel="noreferrer">
+                                            <Icon.Gitlab />
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -177,208 +171,6 @@ const Team = () => (
                                         </a>
                                     </li>
                                 </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-team">
-                            <div className="team-image">
-                                <img src={TeamImg5} alt="image" />
-                            </div>
-
-                            <div className="team-content">
-                                <div className="team-info">
-                                    <h3>Corey Anderson</h3>
-                                    <span>Project Manager</span>
-                                </div>
-
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Facebook />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Twitter />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Linkedin />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://gitlab.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Gitlab />
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-team">
-                            <div className="team-image">
-                                <img src={TeamImg1} alt="image" />
-                            </div>
-
-                            <div className="team-content">
-                                <div className="team-info">
-                                    <h3>Josh Buttler</h3>
-                                    <span>CEO & Founder</span>
-                                </div>
-
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Facebook />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Twitter />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Linkedin />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://gitlab.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Gitlab />
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-team">
-                            <div className="team-image">
-                                <img src={TeamImg2} alt="image" />
-                            </div>
-
-                            <div className="team-content">
-                                <div className="team-info">
-                                    <h3>Alex Maxwel</h3>
-                                    <span>Marketing Manager</span>
-                                </div>
-
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Facebook />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Twitter />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Linkedin />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://gitlab.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Gitlab />
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-team">
-                            <div className="team-image">
-                                <img src={TeamImg3} alt="image" />
-                            </div>
-
-                            <div className="team-content">
-                                <div className="team-info">
-                                    <h3>Janny Cotller</h3>
-                                    <span>Web Developer</span>
-                                </div>
-
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Facebook />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Twitter />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Linkedin />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://gitlab.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Gitlab />
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-team">
-                            <div className="team-image">
-                                <img src={TeamImg4} alt="image" />
-                            </div>
-
-                            <div className="team-content">
-                                <div className="team-info">
-                                    <h3>Jason Statham</h3>
-                                    <span>UX/UI Designer</span>
-                                </div>
-
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Facebook />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Twitter />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Linkedin />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://gitlab.com/" target="_blank" rel="noreferrer">
-                                            <Icon.Gitlab />
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
                             </div>
                         </div>
                     </div>
