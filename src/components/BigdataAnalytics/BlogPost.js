@@ -28,7 +28,7 @@ const BlogPost = () => {
                         <div className="single-blog-post-box bg-f4faff">
                             <div className="entry-thumbnail">
                                 <Link to="/blog-details">
-                                    <img src={BlogImg1} alt="image" />
+                                    <img src={BlogImg1} alt="blog image" />
                                 </Link>
                             </div>
 
@@ -58,7 +58,7 @@ const BlogPost = () => {
                         <div className="single-blog-post-box bg-f4faff">
                             <div className="entry-thumbnail">
                                 <Link to="/blog-details">
-                                    <img src={BlogImg2} alt="image" />
+                                    <img src={BlogImg2} alt="blog image" />
                                 </Link>
                             </div>
 
@@ -88,7 +88,7 @@ const BlogPost = () => {
                         <div className="single-blog-post-box bg-f4faff">
                             <div className="entry-thumbnail">
                                 <Link to="/blog-details">
-                                    <img src={BlogImg3} alt="image" />
+                                    <img src={BlogImg3} alt="blog image" />
                                 </Link>
                             </div>
 
@@ -118,25 +118,25 @@ const BlogPost = () => {
 
             {/* Shape Images */}
 			<div className="shape1">
-                <img src={Shape1} alt="shape" />
+                <img src={Shape1} alt="blog shape" />
             </div>
 			<div className="shape2 rotateme">
-                <img src={Shape2} alt="shape" />
+                <img src={Shape2} alt="blog shape" />
             </div>
 			<div className="shape3">
-                <img src={Shape3} alt="shape" />
+                <img src={Shape3} alt="blog shape" />
             </div>
 			<div className="shape4">
-                <img src={Shape4} alt="shape" />
+                <img src={Shape4} alt="blog shape" />
             </div>
 			<div className="shape6 rotateme">
-                <img src={Shape4} alt="shape" />
+                <img src={Shape4} alt="blog shape" />
             </div>
 			<div className="shape7">
-                <img src={Shape4} alt="shape" />
+                <img src={Shape4} alt="blog shape" />
             </div>
 			<div className="shape8 rotateme">
-                <img src={Shape2} alt="shape" />
+                <img src={Shape2} alt="blog shape" />
             </div>
         </div>
     )

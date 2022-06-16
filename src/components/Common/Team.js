@@ -122,19 +122,6 @@ const Team = () => {
                     </div>
                 </div>
             
-                <div className="single-team">
-                    <div className="team-image">
-                        <img src={Team4} alt="image" />
-                    </div>
-
-                    <div className="team-content">
-                        <div className="team-info">
-                            <h3>Jukka Koivu</h3>
-                            <span>Web Developer</span>
-                        </div>
-
-                    </div>
-                </div>
             </OwlCarousel> : ''}
         </div>
     )

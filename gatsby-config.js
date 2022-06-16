@@ -1,3 +1,11 @@
+if (process.env.NODE_ENV === 'development' || !process.env.NODE_ENV) {
+    require('dotenv').config({ path: './.env.development'})
+}
+  
+if (process.env.NODE_ENV === 'production' || !process.env.NODE_ENV) {
+    require('dotenv').config({ path: './.env.production' })
+}
+
 module.exports = {
     siteMetadata: {
         title: `Spet - Gatsby React IT & Business Startup`,
@@ -26,6 +34,13 @@ module.exports = {
                 theme_color: `#663399`,
                 display: `minimal-ui`,
                 icon: `src/assets/images/favicon.png`, // This path is relative to the root of the site.
+            },
+        },
+        {
+            resolve: `gatsby-source-contentful`,
+            options: {
+                spaceId: `${process.env.CONTENTFUL_SPACE_ID}`,
+                accessToken: `${process.env.CONTENTFUL_ACCESS_TOKEN}`,
             },
         },
         `gatsby-plugin-gatsby-cloud`,

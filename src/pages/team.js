@@ -10,7 +10,6 @@ import TeamImg1 from "../assets/images/team-image/team1.jpg";
 import TeamImg2 from "../assets/images/team-image/team2.jpg";
 import TeamImg3 from "../assets/images/team-image/team3.jpg";
 import TeamImg4 from "../assets/images/team-image/team4.jpg";
-import TeamImg5 from "../assets/images/team-image/team5.jpg";
 
 const Team = () => (
     <Layout>
@@ -26,7 +25,7 @@ const Team = () => (
                     <div className="col-lg-4 col-md-6">
                         <div className="single-team">
                             <div className="team-image">
-                                <img src={TeamImg1} alt="image" />
+                                <img src={TeamImg1} alt="team image" />
                             </div>
 
                             <div className="team-content">
@@ -64,7 +63,7 @@ const Team = () => (
                     <div className="col-lg-4 col-md-6">
                         <div className="single-team">
                             <div className="team-image">
-                                <img src={TeamImg2} alt="image" />
+                                <img src={TeamImg2} alt="team image" />
                             </div>
 
                             <div className="team-content">
@@ -102,7 +101,7 @@ const Team = () => (
                     <div className="col-lg-4 col-md-6">
                         <div className="single-team">
                             <div className="team-image">
-                                <img src={TeamImg3} alt="image" />
+                                <img src={TeamImg3} alt="team image" />
                             </div>
 
                             <div className="team-content">
@@ -140,7 +139,7 @@ const Team = () => (
                     <div className="col-lg-4 col-md-6">
                         <div className="single-team">
                             <div className="team-image">
-                                <img src={TeamImg4} alt="image" />
+                                <img src={TeamImg4} alt="team image" />
                             </div>
 
                             <div className="team-content">
