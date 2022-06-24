@@ -13,7 +13,6 @@ import FunFactsArea from "../components/Common/FunFactsArea"
 import RecentWorks from "../components/Common/RecentWorks"
 import PricingStyleOne from "../components/PricingPlans/PricingStyleOne"
 import Feedback from "../components/Common/Feedback"
-import BlogPost from "../components/Common/BlogPost"
 import Footer from "../components/_App/Footer"
 
 const IndexPage = props => (

@@ -9,7 +9,7 @@ const path = require('path')
 
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
-    const blogTemplate = path.resolve('./src/pages/blog-post.js')
+    const blogTemplate = path.resolve('./src/templates/blog-post.js')
     const res = await graphql(`
         query {
             allContentfulBlogs {

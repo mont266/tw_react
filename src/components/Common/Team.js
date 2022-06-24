@@ -4,8 +4,6 @@ import * as Icon from 'react-feather';
 import Team1 from '../../assets/images/team-image/team1.jpg'
 import Team2 from '../../assets/images/team-image/team2.jpg'
 import Team3 from '../../assets/images/team-image/team3.jpg'
-import Team4 from '../../assets/images/team-image/team4.jpg'
-import Team5 from '../../assets/images/team-image/team5.jpg'
 
 import Loadable from '@loadable/component'
 const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
