@@ -15,7 +15,7 @@ const BlogDetails = props => {
 
       <Navbar />
 
-      <PageBanner pageTitle={props.data.contentfulBlogs.slug} />
+      <PageBanner pageTitle={props.data.contentfulBlogs.title} />
 
       <div className="blog-details-area ptb-80">
         <div className="container">
