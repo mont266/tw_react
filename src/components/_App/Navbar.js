@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="startp-nav">
                 <div className="container">
                     <nav className="navbar navbar-expand-md navbar-light">
-                        <Link to="/it-startup" onClick={toggleNavbar} className="navbar-brand">
+                        <Link to="/" onClick={toggleNavbar} className="navbar-brand">
                             <img src={Logo} alt="logo" />
                         </Link>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <Link to="/it-startup" activeClassName="active" onClick={toggleNavbar} className="nav-link">
+                                    <Link to="/" activeClassName="active" onClick={toggleNavbar} className="nav-link">
                                         Home
                                     </Link>
 
@@ -258,53 +258,9 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link to="#" onClick={e => e.preventDefault()} className="nav-link">
-                                        Blog <Icon.ChevronDown />
+                                    <Link to="/blog" className="nav-link">
+                                        Blog
                                     </Link>
-
-                                    <ul className="dropdown-menu">
-                                        <li className="nav-item">
-                                            <Link to="/blog-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                Blog Grid
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="/blog-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                Blog Right Sidebar
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="/blog-3" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                Blog Grid 2
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="/blog-4" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                Blog Right Sidebar 2
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="/blog-5" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                Blog Grid 3
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="/blog-6" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                Blog Right Sidebar 3
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="/blog-details" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                Blog Details
-                                            </Link>
-                                        </li>
-                                    </ul>
                                 </li>
 
                                 <li className="nav-item">
