@@ -20,10 +20,6 @@ const Pricing = () => (
 
         <PricingStyleTwo />
 
-        <div className="pt-80">
-            <PricingStyleFour />
-        </div> 
-
         <Footer />
     </Layout>
 )
