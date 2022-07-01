@@ -17,7 +17,7 @@ import Loadable from '@loadable/component'
 const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
 
 const options = {
-    items: 4,
+    items: 1,
     loop: true,
     nav: false,
     autoplay: true,

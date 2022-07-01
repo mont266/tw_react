@@ -6,7 +6,6 @@ import Footer from "../components/_App/Footer";
 import PageBanner from '../components/Common/PageBanner';
 import PricingStyleOne from '../components/PricingPlans/PricingStyleOne';
 import PricingStyleTwo from '../components/PricingPlans/PricingStyleTwo';
-import PricingStyleFour from '../components/PricingPlans/PricingStyleFour'; 
 
 const Pricing = () => (
     <Layout>

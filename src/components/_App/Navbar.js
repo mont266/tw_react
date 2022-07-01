@@ -66,7 +66,7 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link to="#" onClick={e => e.preventDefault()} className="nav-link">
+                                    <Link to="/portfolio" onClick={toggleNavbar} className="nav-link">
                                         Portfolio <Icon.ChevronDown />
                                     </Link>
 
