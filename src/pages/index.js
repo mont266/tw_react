@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import * as ReactDOM from 'react-dom';
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import * as Icon from "react-feather"
@@ -16,9 +17,11 @@ import PricingStyleOne from "../components/PricingPlans/PricingStyleOne"
 import Feedback from "../components/Common/Feedback"
 import Footer from "../components/_App/Footer"
 
+
 // Shape Images
 import Shape2 from '../assets/images/shape2.svg'
 import Shape4 from '../assets/images/shape4.svg'
+import { Messenger } from "../components/Common/messenger";
 
 const OwlCarousel = Loadable(() => import("react-owl-carousel3"))
 
@@ -57,6 +60,7 @@ const IndexPage = props => {
 
   return (
     <Layout>
+      <Messenger />
       <SEO title="Home" />
       <Navbar />
       <MainBanner />
