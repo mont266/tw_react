@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react"
-import * as ReactDOM from 'react-dom';
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 import * as Icon from "react-feather"
