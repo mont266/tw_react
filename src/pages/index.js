@@ -20,7 +20,7 @@ import Footer from "../components/_App/Footer"
 // Shape Images
 import Shape2 from '../assets/images/shape2.svg'
 import Shape4 from '../assets/images/shape4.svg'
-import { Messenger } from "../components/Common/messenger";
+import { Messenger } from "../components/Common/Messenger.js";
 
 const OwlCarousel = Loadable(() => import("react-owl-carousel3"))
 
