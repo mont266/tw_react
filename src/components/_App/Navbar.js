@@ -55,8 +55,6 @@ const Navbar = () => {
                                     <Link to="/" activeClassName="active" onClick={toggleNavbar} className="nav-link">
                                         Home
                                     </Link>
-
-
                                 </li>
 
                                 <li className="nav-item">
@@ -67,107 +65,12 @@ const Navbar = () => {
 
                                 <li className="nav-item">
                                     <Link to="/portfolio" onClick={toggleNavbar} className="nav-link">
-                                        Portfolio <Icon.ChevronDown />
+                                        Our Work
                                     </Link>
-
-                                    <ul className="dropdown-menu">
-                                        <li className="nav-item">
-                                            <Link to="#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                                Landing Pages <Icon.ChevronDown />
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link to="/features" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Features
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link to="/feature-details" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Features Details
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                                E-Commerce <Icon.ChevronDown />
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link to="/services-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Shakes N' Bakes
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link to="/services-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        So Habibi
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link to="/services-5" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Services Style 5
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link to="/service-details" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Services Details
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                                Charity Work <Icon.ChevronDown />
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link to="/projects-1" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Friends of Rescue
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link to="/projects-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Project Style 2
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link to="/project-details" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Project Details
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link to="#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                                Other <Icon.ChevronDown />
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-
-                                                <li className="nav-item">
-                                                    <Link to="#" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                        Sign Up
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link to="/blog" className="nav-link">
+                                    <Link to="/blog" onClick={toggleNavbar} className="nav-link">
                                         Blog
                                     </Link>
                                 </li>

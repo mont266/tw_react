@@ -12,21 +12,25 @@ const PricingStyleOne = () => {
         <div className="pricing-area pt-80 pb-50 bg-f9f6f6">
             <div className="container">
                 <div className="section-title">
-                    <h2>Pricing Plans</h2>
+                    <h2>Website Plans</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>All prices below are One-Time development fees. Web hosting is included & managed by us for £6/Month (or £60/Year).</p>
+                    <p></p>
+                    <p>The prices below do not include any monthly/yearly costs from features clients may want added during the development process.</p>
                 </div>
 
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h3>Basic Plan</h3>
+                                <h3>Landing Page</h3>
+                                <p>Perfect for service-based businesses or informational websites.</p>
                             </div>
 
                             <div className="content">
                                 <div className="price">
-                                    <span><sup>$</sup>15.00 <span>/Mon</span></span>
+                                    <span><sup>$</sup>15.00 <span>/Month</span></span>
+                                    <span><sup>£</sup>4</span>/Month
                                 </div>
                                 
                                 <div className="pricing-features">
@@ -54,7 +58,8 @@ const PricingStyleOne = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table active-plan">
                             <div className="pricing-header">
-                                <h3>Advanced Plan</h3>
+                                <h3>E-Commerce</h3>
+                                <p>Perfect for any business that sells products online.</p>
                             </div>
                             
                             <div className="content">
@@ -87,7 +92,8 @@ const PricingStyleOne = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h3>Expert Plan</h3>
+                                <h3>Custom Websites</h3>
+                                <p>For any sites that doesn't fall into the <strong>Landing Page</strong> or <strong>E-Commerce</strong> categories.</p>
                             </div>
                             
                             <div className="content">

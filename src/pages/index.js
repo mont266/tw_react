@@ -59,6 +59,7 @@ const IndexPage = props => {
 
   return (
     <Layout>
+      <Messenger />
       <SEO title="Home" />
       <Navbar />
       <MainBanner />

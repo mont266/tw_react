@@ -7,10 +7,12 @@ import PageBanner from "../components/Common/PageBanner"
 import * as Icon from "react-feather"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
+import { Messenger } from "../components/Common/Messenger"
 
 const Portfolio = props => {
   return (
     <Layout>
+      <Messenger />
       <SEO title="Portfolio" />
 
       <Navbar />

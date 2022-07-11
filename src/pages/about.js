@@ -9,9 +9,11 @@ import PageBanner from '../components/Common/PageBanner';
 import FeedbackStyleFour from '../components/Common/FeedbackStyleFour';
 
 import AboutImg from "../assets/images/about4.png";
+import { Messenger } from "../components/Common/Messenger";
 
 const About2 = () => (
     <Layout>
+        <Messenger />
         <SEO title="About Us Page 2" /> 
 
         <Navbar />
