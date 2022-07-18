@@ -10,9 +10,9 @@ const PricingStyleTwo = () => {
         <div className="pricing-area pt-80 pb-50 bg-f7fafd">
             <div className="container">
                 <div className="section-title">
-                    <h2>Pricing Plans</h2>
+                    <h2>SEO Audit Pricing</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Our SEO Audits are the highest quality tool to increasing the traffic to your existing website.</p>
                 </div>
 
                 <div className="row justify-content-center">
@@ -20,26 +20,28 @@ const PricingStyleTwo = () => {
                         <div className="single-pricing-table">
                             <div className="pricing-header">
                                 <i className="flaticon-data"></i>
-                                <h3>Web Hosting</h3>
+                                <h3>Basic SEO Audit</h3>
                             </div>
                             
                             <div className="price">
-                                <span><sup>$</sup>10.99<span>/m</span></span>
+                                <span><sup>£</sup>35<span></span></span>
                             </div>
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li><i data-feather="check"></i> 99.9% Uptime Guarantee</li>
-                                    <li><i data-feather="check"></i> Reliable & Secure</li>
-                                    <li><i data-feather="check"></i> Powered by cPanel / Plesk</li>
-                                    <li><i data-feather="check"></i> Web Asset Delivery</li>
-                                    <li><i data-feather="check"></i> 24/7 Dedicated Support</li>
+                                    <li><i data-feather="check"></i> PageSpeed Ranking</li>
+                                    <li><i data-feather="check"></i> Indexing Problems Report</li>
+                                    <li><i data-feather="check"></i> Backlinks Report</li>
+                                    <li><i data-feather="check"></i> Images Report</li>
+                                    <li><i data-feather="check"></i> Site Redirects Report</li>
+                                    <li><i data-feather="check"></i> Meta Tags Report</li>
+                                    <li><i data-feather="check"></i> Conclusion & Opportunities</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link to="/login" className="btn btn-primary">
-                                    Select Plan
+                                <Link to="#" className="btn btn-primary">
+                                    Buy Now
                                 </Link>
                             </div>
                         </div>
@@ -49,59 +51,34 @@ const PricingStyleTwo = () => {
                         <div className="single-pricing-table active-plan">
                             <div className="pricing-header">
                                 <i className="flaticon-cloud"></i>
-                                <h3>Cloud Hosting</h3>
+                                <h3>Advanced SEO Audit</h3>
                             </div>
                             
                             <div className="price">
-                                <span><sup>$</sup>13.99<span>/m</span></span>
+                                <span><sup>£</sup>65<span></span></span>
                             </div>
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li><i data-feather="check"></i> 99.9% Uptime Guarantee</li>
-                                    <li><i data-feather="check"></i> Reliable & Secure</li>
-                                    <li><i data-feather="check"></i> Powered by cPanel / Plesk</li>
-                                    <li><i data-feather="check"></i> Web Asset Delivery</li>
-                                    <li><i data-feather="check"></i> 24/7 Dedicated Support</li>
+                                    <li><i data-feather="check"></i> Everything in the Basic Audit</li>
+                                    <li><i data-feather="check"></i> Spelling & Grammar Report</li>
+                                    <li><i data-feather="check"></i> Broken Links Report</li>
+                                    <li><i data-feather="check"></i> Mobile Friendly Report</li>
+                                    <li><i data-feather="check"></i> Toxic Links Report</li>
+                                    <li><i data-feather="check"></i> Onpage Fundamentals Report</li>
+                                    <li><i data-feather="check"></i> Website Architecture Report</li>
+                                    <li><i data-feather="check"></i> Content Analysis Report</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link to="/login" className="btn btn-primary">
-                                    Select Plan
+                                <Link to="#" className="btn btn-primary">
+                                    Buy Now
                                 </Link>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="col-lg-4 col-md-6">
-                        <div className="single-pricing-table">
-                            <div className="pricing-header">
-                                <i className="flaticon-vps"></i>
-                                <h3>Vps Hosting</h3>
-                            </div>
-                            
-                            <div className="price">
-                                <span><sup>$</sup>15.99<span>/m</span></span>
-                            </div>
-                            
-                            <div className="pricing-features">
-                                <ul>
-                                    <li><i data-feather="check"></i> 99.9% Uptime Guarantee</li>
-                                    <li><i data-feather="check"></i> Reliable & Secure</li>
-                                    <li><i data-feather="check"></i> Powered by cPanel / Plesk</li>
-                                    <li><i data-feather="check"></i> Web Asset Delivery</li>
-                                    <li><i data-feather="check"></i> 24/7 Dedicated Support</li>
-                                </ul>
-                            </div>
-                            
-                            <div className="pricing-footer">
-                                <Link to="/login" className="btn btn-primary">
-                                    Select Plan
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 

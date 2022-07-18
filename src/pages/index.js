@@ -21,6 +21,7 @@ import Footer from "../components/_App/Footer"
 import Shape2 from '../assets/images/shape2.svg'
 import Shape4 from '../assets/images/shape4.svg'
 import { Messenger } from "../components/Common/Messenger.js";
+import FeedbackStyleFive from "../components/Common/FeedbackStyleFive"
 
 const OwlCarousel = Loadable(() => import("react-owl-carousel3"))
 
@@ -65,34 +66,32 @@ const IndexPage = props => {
       <MainBanner />
       <Features />
       <ServicesArea />
-      <FunFactsArea />
-      <Team />
+      {/* <FunFactsArea /> */}
+      {/* <Team /> */}
       <div className="works-area pt-80 pb-50 bg-f7fafd">
         <div className="container">
           <div className="section-title">
             <h2>Our Recent Works</h2>
             <div className="bar"></div>
             <p>
-              Some of the most recent projects to join the Talisman Webs
+            Some of the most recent projects to join the Talisman Webs
               portfolio.
             </p>
           </div>
-        </div>
-
-        {display ? (
-          <OwlCarousel
-            className="works-slides owl-carousel owl-theme"
-            {...options}
-          >
+          <div className="row justify-content-center">
             {props.data.allContentfulPortfolio.edges.map(item => (
               <div className="col-lg-4 col-md-6">
-                <div className="single-works">
-                <GatsbyImage
+                <div className="single-blog-post">
+                  <div className="blog-image">
+                    <Link to ={item.node.url}>
+                      <GatsbyImage
                         image={item.node.projectImage.gatsbyImageData}
                         alt="Image"
                         width="320"
                         height="170"
                       />
+                    </Link>
+                  </div>
 
                   <div className="works-content">
                     <h3>
@@ -107,26 +106,11 @@ const IndexPage = props => {
                 </div>
               </div>
             ))}
-          </OwlCarousel>
-        ) : (
-          ""
-        )}
-                    {/* Shape Images */}
-                    <div className="shape8 rotateme">
-                <img src={Shape2} alt="shape" />
-            </div>
-            <div className="shape2 rotateme">
-                <img src={Shape2} alt="shape" />
-            </div>
-            <div className="shape7">
-                <img src={Shape4} alt="shape" />
-            </div>
-            <div className="shape4">
-                <img src={Shape4} alt="shape" />
-            </div>
+          </div>
+        </div>
       </div>
       <PricingStyleOne />
-      <Feedback />
+      <FeedbackStyleFive />
       <div className="blog-area ptb-80">
         <div className="container">
           <div className="section-title">
@@ -198,8 +182,8 @@ export const query = graphql`
           featureImage {
             gatsbyImageData(
               layout: FULL_WIDTH
-              width: 10
-              height: 10
+              width: 15
+              height: 15
               formats: WEBP
             )
           }
@@ -217,8 +201,8 @@ export const query = graphql`
           projectImage {
             gatsbyImageData(
               layout: FULL_WIDTH
-              width: 10
-              height: 10
+              width: 15
+              height: 15
               formats: WEBP
             )
           }

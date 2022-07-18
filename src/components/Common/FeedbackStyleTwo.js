@@ -46,56 +46,36 @@ const FeedbackStyleTwo = () => {
                 >
                     <div className="single-feedback-item">
                         <div className="client-info align-items-center">
-                            <div className="image">
-                                <img 
-                                    src={Client1}
-                                    alt="image"
-                                />
-                            </div>
 
                             <div className="title">
-                                <h3>Steve Lucy</h3>
-                                <span>Lead Developer at Envato</span>
+                                <h3>Danielle Magee</h3>
+                                <span>Friends of Rescue</span>
                             </div>
                         </div>
 
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>I cannot recommend Talisman Webs enough. The team have worked so hard to build us our first website, nothing was ever a bother for them. Even when we were changing our minds about certain elements, they were happy to help change up whatever we needed. We were shown how to update the website and any questions we have are always answered quickly and with so much patience. We absolutely love our new website and honestly without the patience and dedication of Talisman Webs I dont think we would ever have gotten it up an running.</p>
                     </div>
 
                     <div className="single-feedback-item">
                         <div className="client-info align-items-center">
-                            <div className="image">
-                                <img 
-                                    src={Client2}
-                                    alt="image"
-                                />
-                            </div>
 
                             <div className="title">
-                                <h3>David Luiz</h3>
-                                <span>Lead Developer at Envato</span>
+                                <h3>Maxi</h3>
+                                <span>Shakes N' Bakes Belfast</span>
                             </div>
                         </div>
 
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Talisman Webs has built us a very professional and efficient website for our company. Integrated it with delivery services which run extremely smoothly. Scott not only has met our deadline requirement, but managed to compete it well in advance, allowing us to work with him to perfect it before the launch. </p>
                     </div>
 
                     <div className="single-feedback-item">
                         <div className="client-info align-items-center">
-                            <div className="image">
-                                <img 
-                                    src={Client3}
-                                    alt="image"
-                                />
-                            </div>
-
                             <div className="title">
-                                <h3>Marta Smith</h3>
-                                <span>Lead Developer at Envato</span>
+                                <h3>Tom West</h3>
+                                <span>Twig Services</span>
                             </div>
                         </div>
-
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Twig Services has been trading for 6 years and maintaining a website through various third parties has always been troublesome, time-consuming and costly at best! We are over the moon with the new content and features which have all been accomplished in lightning fast time and with minimal hassle, where Scott seemed to know exactly what we would want and need! We can now concentrate for the first time knowing that our brand is loved and cherished and is continually being worked on proactively!</p>
                     </div>
                 </OwlCarousel> : ''}
             </div>

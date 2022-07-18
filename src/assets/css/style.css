@@ -2927,6 +2927,25 @@ Pricing CSS
   font-weight: 500;
 }
 
+.pricing-table .subprice {
+  margin-bottom: 15px;
+}
+
+.pricing-table .subprice span {
+  color: #44ce6f;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pricing-table .subprice span sup {
+  font-weight: 500;
+}
+
+.pricing-table .subprice span span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .pricing-table .pricing-features ul {
   padding: 0;
   list-style-type: none;

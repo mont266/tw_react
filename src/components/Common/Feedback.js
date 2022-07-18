@@ -129,7 +129,7 @@ class Feedback extends React.Component {
                         <div className="bar"></div>
                         <p>We pride ourselves on delivering above and beyond for our clients. Here is some of the things our clients have to say.</p>
                         <p>_____</p>
-                        <Link to="/contact" className="btn btn-primary">
+                        <Link to="https://www.trustpilot.com/review/talismanwebs.com" target="_blank" className="btn btn-primary">
 					        Leave A Review
 				        </Link>
                     </div>

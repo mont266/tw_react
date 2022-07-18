@@ -53,7 +53,6 @@ const FeedbackStyleThree = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ullam harum sit. Accusantium veritatis dolore ducimus illum, cumque excepturi, autem rerum illo amet placeat odit corporis!</p>
 
                         <div className="client-info">
-                            <img src={Client1} alt="image" />
 
                             <div className="rating">
                                 <Icon.Star />
@@ -62,9 +61,9 @@ const FeedbackStyleThree = () => {
                                 <Icon.Star />
                                 <Icon.Star />
                             </div>
-
                             <h3>Sarah Taylor</h3>
                             <span>CEO at Envato</span>
+
                         </div> 
                     </div>
 

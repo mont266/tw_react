@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "gatsby";
 import * as Icon from 'react-feather';
-import AgencyShape1 from "../../assets/images/agency-image/agency-shape1.png";
 
 class PricingStyleThree extends Component {
 
@@ -26,10 +25,12 @@ class PricingStyleThree extends Component {
             <div className="pricing-area pb-50">
                 <div className="container">
                     <div className="section-title st-fs-28">
-                        <span className="sub-title">Pricing</span>
-                        <h2>Our Pricing Plan</h2>
+                        <span className="sub-title">Add-Ons</span>
+                        <h2>Maintanence Packages</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>These are optional extras that can be added onto your website packages. These are added to the monthly/yearly charge of the live website.</p>
+                        <p>__</p>
+                        <strong><p> Note: All monthly/yearly costs will not be active until your site is finished & live.</p></strong>
                     </div>
                     
                     <div className="tab pricing-tab bg-color">
@@ -52,18 +53,15 @@ class PricingStyleThree extends Component {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="pricing-box">
                                             <div className="pricing-header">
-                                                <h3>Free</h3>
+                                                <h3>Low Maintanence Package</h3>
                                                 <p>Get your business up <br /> and running</p>
                                             </div>
 
                                             <div className="price">
-                                                $0 <span>/m</span>
+                                                £10 <span>/Month</span>
                                             </div>
 
                                             <div className="buy-btn">
-                                                <Link to="/login" className="btn btn-primary">
-                                                    Get Started Free
-                                                </Link>
                                             </div>
 
                                             <ul className="pricing-features">
@@ -81,18 +79,15 @@ class PricingStyleThree extends Component {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="pricing-box">
                                             <div className="pricing-header">
-                                                <h3>Pro</h3>
+                                                <h3>Medium Maintanence Package</h3>
                                                 <p>Get your business up <br /> and running</p>
                                             </div>
 
                                             <div className="price">
-                                                $149 <span>/m</span>
+                                                £20 <span>/Month</span>
                                             </div>
 
                                             <div className="buy-btn">
-                                                <Link to="/login" className="btn btn-primary">
-                                                    Start 3 Days Free Trial
-                                                </Link>
                                             </div>
 
                                             <ul className="pricing-features">
@@ -110,18 +105,15 @@ class PricingStyleThree extends Component {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="pricing-box">
                                             <div className="pricing-header">
-                                                <h3>Premium</h3>
+                                                <h3>High Maintanence Package</h3>
                                                 <p>Get your business up <br /> and running</p>
                                             </div>
 
                                             <div className="price">
-                                                $179 <span>/m</span>
+                                                £35 <span>/Month</span>
                                             </div>
 
                                             <div className="buy-btn">
-                                                <Link to="/login" className="btn btn-primary">
-                                                    Start 6 Days Free Trial
-                                                </Link>
                                             </div>
 
                                             <ul className="pricing-features">
@@ -143,18 +135,15 @@ class PricingStyleThree extends Component {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="pricing-box">
                                             <div className="pricing-header">
-                                                <h3>Free</h3>
+                                                <h3>Low Maintanence Package</h3>
                                                 <p>Get your business up <br /> and running</p>
                                             </div>
 
                                             <div className="price">
-                                                $0 <span>/y</span>
+                                                £100 <span>/Year</span>
                                             </div>
 
                                             <div className="buy-btn">
-                                                <Link to="/login" className="btn btn-primary">
-                                                    Get Started Free
-                                                </Link>
                                             </div>
 
                                             <ul className="pricing-features">
@@ -172,18 +161,15 @@ class PricingStyleThree extends Component {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="pricing-box">
                                             <div className="pricing-header">
-                                                <h3>Pro</h3>
+                                                <h3>Medium Maintanence Package</h3>
                                                 <p>Get your business up <br /> and running</p>
                                             </div>
 
                                             <div className="price">
-                                                $249 <span>/y</span>
+                                                £200 <span>/Year</span>
                                             </div>
 
                                             <div className="buy-btn">
-                                                <Link to="/login" className="btn btn-primary">
-                                                    Start 3 Days Free Trial
-                                                </Link>
                                             </div>
 
                                             <ul className="pricing-features">
@@ -201,18 +187,15 @@ class PricingStyleThree extends Component {
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="pricing-box">
                                             <div className="pricing-header">
-                                                <h3>Premium</h3>
+                                                <h3>High Maintanence Package</h3>
                                                 <p>Get your business up <br /> and running</p>
                                             </div>
 
                                             <div className="price">
-                                                $279 <span>/y</span>
+                                                £350 <span>/Year</span>
                                             </div>
 
                                             <div className="buy-btn">
-                                                <Link to="/login" className="btn btn-primary">
-                                                    Start 6 Days Free Trial
-                                                </Link>
                                             </div>
 
                                             <ul className="pricing-features">
@@ -230,11 +213,6 @@ class PricingStyleThree extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                {/* Shape Image */}
-                <div className="shape9 mobile-dnone">
-                    <img src={AgencyShape1} alt="image" />
                 </div>
             </div>
         );

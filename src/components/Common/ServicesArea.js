@@ -26,6 +26,7 @@ import SmallMonitor from "../../assets/images/services-left-image/small-monitor.
 import SmallTop from "../../assets/images/services-left-image/small-top.png";
 import Target from "../../assets/images/services-left-image/target.png";
 import ServiceLeftMainPic from "../../assets/images/services-left-image/service-left-main-pic.png";
+import { Link } from 'gatsby';
 
 const ServicesArea = () => {
     return (
@@ -257,9 +258,13 @@ const ServicesArea = () => {
                         <div className="col-lg-6 col-md-12 services-content">
                             <div className="section-title">
                                 <h2>SEO Audits</h2>
+                                
                                 <div className="bar"></div>
                                 <p>Our SEO audits offer extreme detail and will identify the current strengths and weaknesses of your current SEO strategy.</p>
                             </div>
+                            <Link to="#" className="btn btn-primary">
+                                    Buy Now
+                                </Link>
 
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">

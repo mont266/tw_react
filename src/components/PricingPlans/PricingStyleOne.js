@@ -29,22 +29,26 @@ const PricingStyleOne = () => {
 
                             <div className="content">
                                 <div className="price">
-                                    <span><sup>$</sup>15.00 <span>/Month</span></span>
-                                    <span><sup>£</sup>4</span>/Month
+                                    <span><sup>From £</sup>360 <span>One Time</span></span>
+                                    <div className="subprice">
+                                        <span>+£6<span>/Month (or £60/Year)</span></span>*
+                                    </div>
                                 </div>
                                 
                                 <div className="pricing-features">
                                     <ul>
-                                        <li className="active">5 GB Bandwidth</li>
-                                        <li className="active">Highest Speed</li>
-                                        <li className="active">1 GB Storage</li>
-                                        <li className="active">Unlimited Website</li>
-                                        <li className="active">Unlimited Users</li>
-                                        <li className="active">24x7 Great Support</li>
-                                        <li>Data Security and Backups</li>
-                                        <li>Monthly Reports and Analytics</li>
+                                        <li className="active">Web Hosting</li>
+                                        <li className="active">Domain Registration</li>
+                                        <li className="active">Analytics</li>
+                                        <li className="active">Appointment Booking</li>
+                                        <li className="active">Live Chat</li>
+                                        <li className="active">Content Management System (CMS)</li>
+                                        <li className="active">Website Backups</li>
                                     </ul>
+                                    
                                 </div>
+                                * Monthly/Yearly costs will not be active until the website is completed & live.
+                                <div className="price"> </div>
                                 
                                 <div className="pricing-footer">
                                     <Link to="/login" className="btn btn-primary">
@@ -64,21 +68,27 @@ const PricingStyleOne = () => {
                             
                             <div className="content">
                                 <div className="price">
-                                    <span><sup>$</sup>35.00 <span>/Mon</span></span>
+                                    <span><sup>From £</sup>750 <span>One Time</span></span>
+                                    <div className="subprice">
+                                        <span>+£12<span>/Month (or £132/Year)</span></span>*
+                                    </div>
                                 </div>
                                 
                                 <div className="pricing-features">
                                     <ul>
-                                        <li className="active">10 GB Bandwidth</li>
-                                        <li className="active">Highest Speed</li>
-                                        <li className="active">3 GB Storage</li>
-                                        <li className="active">Unlimited Website</li>
-                                        <li className="active">Unlimited Users</li>
-                                        <li className="active">24x7 Great Support</li>
-                                        <li className="active">Data Security and Backups</li>
-                                        <li>Monthly Reports and Analytics</li>
+                                        <li className="active">Web Hosting</li>
+                                        <li className="active">Domain Registration</li>
+                                        <li className="active">Analytics + Sales Dashboard</li>
+                                        <li className="active">Mobile App Store Manager</li>
+                                        <li className="active">Built-in Inventory Management</li>
+                                        <li className="active">Tax + Shipping Cost system</li>
+                                        <li className="active">Discounts + Voucher System</li>
+                                        <li className="active">Multi-Channel Sales</li>
+                                        <li className="active">And So Much More...</li>
                                     </ul>
                                 </div>
+                                * Monthly/Yearly costs will not be active until the website is completed & live.
+                                <div className="price"> </div>
                                 
                                 <div className="pricing-footer">
                                     <Link to="/login" className="btn btn-primary">
@@ -98,20 +108,10 @@ const PricingStyleOne = () => {
                             
                             <div className="content">
                                 <div className="price">
-                                    <span><sup>$</sup>65.00 <span>/Mon</span></span>
+                                    <span><sup></sup>Get in Touch <span></span></span>
                                 </div>
                                 
                                 <div className="pricing-features">
-                                    <ul>
-                                        <li className="active">15 GB Bandwidth</li>
-                                        <li className="active">Highest Speed</li>
-                                        <li className="active">5 GB Storage</li>
-                                        <li className="active">Unlimited Website</li>
-                                        <li className="active">Unlimited Users</li>
-                                        <li className="active">24x7 Great Support</li>
-                                        <li className="active">Data Security and Backups</li>
-                                        <li className="active">Monthly Reports and Analytics</li>
-                                    </ul>
                                 </div>
                                 
                                 <div className="pricing-footer">

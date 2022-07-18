@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === 'production' || !process.env.NODE_ENV) {
 
 module.exports = {
     siteMetadata: {
-        title: `Spet - Gatsby React IT & Business Startup`,
+        title: `Talisman Webs - Digital Journeys Start Here`,
         description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
         author: `@envy_theme`,
     },

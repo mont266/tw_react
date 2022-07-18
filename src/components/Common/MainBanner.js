@@ -34,7 +34,7 @@ const MainBanner = () => {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-5">
 								<div className="hero-content">
-									<h1>Your Online Presence. Built To Run Everywhere.</h1>
+									<h1>Your Online Presence Starts Here.</h1>
 									<p>We are paving the way for a futuristic digital presence. Our clients will never fall behind as technology moves forward. Our websites are simply built to run everywhere, on every device. They are built to be seen.</p>
 									
 									<Link to="/contact" className="btn btn-primary">
