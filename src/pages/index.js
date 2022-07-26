@@ -182,8 +182,6 @@ export const query = graphql`
           featureImage {
             gatsbyImageData(
               layout: FULL_WIDTH
-              width: 15
-              height: 15
               formats: WEBP
             )
           }
@@ -201,8 +199,6 @@ export const query = graphql`
           projectImage {
             gatsbyImageData(
               layout: FULL_WIDTH
-              width: 15
-              height: 15
               formats: WEBP
             )
           }

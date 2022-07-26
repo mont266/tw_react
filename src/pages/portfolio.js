@@ -63,8 +63,6 @@ export const query = graphql`
           projectImage {
             gatsbyImageData(
               layout: FULL_WIDTH
-              width: 10
-              height: 10
               formats: WEBP
             )
           }
