@@ -21,9 +21,12 @@ const Portfolio = props => {
 
       <div className="blog-area ptb-80">
         <div className="container">
+          
           <div className="row justify-content-center">
+          
             {props.data.allContentfulPortfolio.edges.map(item => (
               <div className="col-lg-4 col-md-6">
+                <strong><p>Click On / Hover Over images to view more detail.</p></strong>
                 <div className="single-works">
                 <GatsbyImage
                         image={item.node.projectImage.gatsbyImageData}
