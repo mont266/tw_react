@@ -34,7 +34,7 @@ const Portfolio = props => {
 
                   <div className="works-content">
                     <h3>
-                      <Link to={item.node.url}>
+                      <Link to={item.node.url} target="_blank">
                         {item.node.title}
                       </Link>
                     </h3>

@@ -83,7 +83,7 @@ const IndexPage = props => {
               <div className="col-lg-4 col-md-6">
                 <div className="single-blog-post">
                   <div className="blog-image">
-                    <Link to ={item.node.url}>
+                    <Link to ={item.node.url} target="_blank">
                       <GatsbyImage
                         image={item.node.projectImage.gatsbyImageData}
                         alt="Image"
