@@ -20,7 +20,7 @@ const Footer = () => {
                                     <img src={Logo} alt="logo" />
                                 </Link>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                            <p>Shaping the digital presence of small businesses at affordable rates. One step at a time.</p>
                         </div>
                     </div>
 
@@ -34,13 +34,13 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/services-1">
+                                    <Link to="/">
                                         Services
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/features">
-                                        Features
+                                    <Link to="/portfolio">
+                                        Portfolio
                                     </Link>
                                 </li>
                                 <li>
@@ -49,8 +49,8 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/blog-1">
-                                        Latest News
+                                    <Link to="/blog">
+                                        Blog
                                     </Link>
                                 </li>
                             </ul>
@@ -62,8 +62,8 @@ const Footer = () => {
                             <h3>Support</h3>
                             <ul className="list">
                                 <li>
-                                    <Link to="/faq">
-                                        FAQ's
+                                    <Link to="https://talismanwebs.hipporello.net/desk" target="_blank">
+                                        Submit a Ticket
                                     </Link>
                                 </li>
                                 <li>
@@ -74,11 +74,6 @@ const Footer = () => {
                                 <li>
                                     <Link to="/term-condition">
                                         Terms & Condition
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/team">
-                                        Team
                                     </Link>
                                 </li>
                                 <li>

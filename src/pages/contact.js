@@ -20,8 +20,6 @@ const Contact = () => (
 
         <ContactInfo />
 
-        <GoogleMap />
-
         <ContactForm />
         
         <Footer /> 
