@@ -18,7 +18,8 @@ const ContactForm = () => {
                     </div>
 
                     <div className="col-lg-6 col-md-12">
-                        <form id="contactForm" name="contact" netlify>
+                        <form id="contactForm" method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
+                            <input type="hidden" name="bot-field" />
                             <div className="row">
                                 <div className="col-lg-12 col-md-12">
                                     <div className="form-group">
