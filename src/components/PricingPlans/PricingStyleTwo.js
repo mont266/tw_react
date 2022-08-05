@@ -72,11 +72,9 @@ const PricingStyleTwo = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <div class="cp-button">
-                                    <Link to="https://checkoutpage.co/c/talismanwebs/advanced-seo-audit">
-                                        Buy Now
-                                    </Link>
-                                </div>
+                                <Link to="https://checkoutpage.co/c/talismanwebs/advanced-seo-audit" className="btn btn-primary cp-button">
+                                    Buy Now
+                                </Link>
                             </div>
                         </div>
                     </div>
