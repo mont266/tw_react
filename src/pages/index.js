@@ -20,7 +20,6 @@ import Footer from "../components/_App/Footer"
 // Shape Images
 import Shape2 from '../assets/images/shape2.svg'
 import Shape4 from '../assets/images/shape4.svg'
-import { Messenger } from "../components/Common/Messenger.js";
 import FeedbackStyleFive from "../components/Common/FeedbackStyleFive"
 
 const OwlCarousel = Loadable(() => import("react-owl-carousel3"))
@@ -60,7 +59,6 @@ const IndexPage = props => {
 
   return (
     <Layout>
-      <Messenger />
       <SEO title="Home" />
       <Navbar />
       <MainBanner />

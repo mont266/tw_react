@@ -2,11 +2,9 @@ import React from "react"
 import Layout from "../components/_App/layout"
 import SEO from "../components/_App/seo"
 import { Link } from "gatsby";
-import { Messenger } from "../components/Common/Messenger";
 
 const NotFoundPage = () => (
     <Layout>
-        <Messenger />
         <SEO title="404: Not found" />
 
         <div className="error-area">

@@ -9,12 +9,10 @@ import PageBanner from '../components/Common/PageBanner';
 import FeedbackStyleFive from '../components/Common/FeedbackStyleFive';
 
 import AboutImg from "../assets/images/about4.png";
-import { Messenger } from "../components/Common/Messenger";
 import { Link } from "gatsby";
 
 const About2 = () => (
     <Layout>
-        <Messenger />
         <SEO title="About Us Page 2" /> 
 
         <Navbar />
